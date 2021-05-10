@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+#page2_s1 .s1_div0{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#page2_s1 .s1_div0 h2{
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    line-height: 2;
+    font-weight: 600;
+}
+#page2_s2 .s2_div0{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 12px;
+    height: 90vh;
+}
+
+#page2_s2 .media_div0{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(to top,red , blue);
+    margin-right: 5px;
+}
+#page2_s2 .s2_div0_grid2{
+    
+    display: grid;
+    grid-template-rows: 50% 50% ;
+    grid-gap: 20px;
+
+}
+#page2_s2 .s2_div01_grid2 h4::before{
+    content: " ";
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-image: linear-gradient(to top,red , blue);
+    position: relative;
+    top: 7px;
+    right: 2px;
+    /* border-radius: 100%; */
+}
+#page2_s2 .s2_div01_grid2 h4{
+    font-weight: 600;
+    margin-left: 3px;
+    padding: 2px;
+    line-height: 31px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   color: teal;
+ 
+
+}
+#page2_s2 .s2_div01_grid2 h4::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 323px;
+    background-image: linear-gradient(to top,red , blue);
+    position: relative;
+    bottom: 1.8px;
+    left: -1.4px;
+    
+    
+}
+
+#page2_s2 .s2_div01_grid2 .images{
+    background-image: url(../image/Telegram.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 90%;
+}
+/* #page2_s2 .s2_div02_grid2{
+    
+} */
+#page2_s2 .s2_div02_grid2 h4::before{
+    content: " ";
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-image: linear-gradient(to top,red , blue);
+    position: relative;
+    top: 7px;
+    right: 2px;
+    /* border-radius: 100%; */
+}
+#page2_s2 .s2_div02_grid2 h4{
+    font-weight: 600;
+    margin-left: 3px;
+    padding: 2px;
+    line-height: 31px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   color: teal;
+ 
+
+}
+#page2_s2 .s2_div02_grid2 h4::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 323px;
+    background-image: linear-gradient(to top,red , blue);
+    position: relative;
+    bottom: 1.8px;
+    left: -1.4px;
+    
+    
+}

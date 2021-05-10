@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    background-color: transparent;
+    margin: 0;
+    z-index: 1;
+    
+
+}
+/* nav.topwhite{
+    background-color: black;
+    transition: .5s;
+    z-index:1 ;
+    top: 0;
+
+} */
+nav h4{
+    display: block;
+    float: left;
+    position: relative;
+    left: auto;
+    top: auto;
+    font-family: 'Modak', cursive;
+    color: white;
+    font-family:  'Pangolin', cursive;
+}
+
+
+/* nav.topwhite .logo{
+    color: thistle;
+    transition: ease .5s;
+    margin-top: 0;
+}
+nav.topwhite h5{
+    font-size: 1.5rem;
+} */
+nav  ul{
+    float: right;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    /* background-color: blanchedalmond; */
+    
+}
+
+
+nav ul li{
+    list-style: none;
+  
+}
+nav ul li a{
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 800;
+    font-family: 'MuseoModerno', cursive;
+    background-color: none;
+    margin: 2px;
+    font-family:  'Pangolin', cursive;
+}
+#menu_bar {
+    float: right;
+    visibility: hidden;
+    cursor: pointer;
+    
+
+}
+#menu_bar div{
+
+    display: block;
+    height: 3px;
+    width: 20px;
+    background-color:rgb(255, 255, 255);
+    margin: 4px;
+}
+.cross-x{
+    float: right;
+    visibility: hidden;
+    position: relative;
+    top: 10px;
+    right: 3rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+}
+#s1_home{
+    text-align: center;
+    background-image: url(../Image/dark_photo_of_microphone_on_foggy_stage_4k_5k_hd.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 10px;
+}
+#s1_home::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(194, 92, 92, 0.555);
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+}
+#s1_home .header_flex{
+    display: table;
+    width: 100%;
+    height: 100%;   
+}
+.sub_header{
+    
+        margin: 0 auto;
+        display: table-cell;
+        vertical-align: middle;
+    
+}
+.header_content{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.widget{
+    line-height: 1.4;
+}
+
+.header-text p {
+    color: #fff;
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.4em;
+    text-transform: Uppercase;
+    letter-spacing: 3px;
+    font-family: 'Pangolin', cursive;
+}
+.header-text-1{
+    margin-bottom: 5px;
+}
+.widget-1{
+    line-height: 1.4;
+
+}
+
+.header-text-1 span:nth-child(odd){
+    color: rgb(233, 15, 15);
+    margin: 0;
+    font-size: 35px;
+    line-height: 1.4em;
+    text-transform: Uppercase;
+    letter-spacing: 1px;
+    font-family: 'Pangolin', cursive;
+}
+.header-text-1 span:nth-child(even){
+    color: #fff;
+    margin: 0;
+    font-size: 35px;
+    line-height: 1.4em;
+    text-transform: Uppercase;
+    letter-spacing: 1px;
+    font-family: 'Pangolin', cursive;
+}
+.widget-2{
+    line-height: 1.4;
+}
+
+.header-text-2 span:first-child {
+    color: rgb(197, 36, 36);
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.4em;
+    text-transform: Uppercase;
+    letter-spacing: 3px;
+    font-family: 'Pangolin', cursive;
+}
+.header-text-2 span {
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.4em;
+    text-transform: Uppercase;
+    letter-spacing: 3px;
+    font-family: 'Pangolin', cursive;
+}
+/* --------------------------------------------------Section 2-------------------------------------------------- */
+
+
+
+#s2_home{
+    z-index: 0;
+    box-sizing: border-box;
+}
+#s2_home ul{
+    list-style: none;
+    text-decoration: none;
+}
+#s2_home ul li a img{
+    opacity: 0.3;
+
+}
+#s2_home ul li{
+    text-align: center;
+}
+#s2_home ul li a{
+    text-decoration: none;
+}
+#s2_home ul li{
+    list-style: none;
+}
+#s2_home ul li h4{
+    font-weight: 800;
+    font-size: 4rem;
+    position: relative;
+    font-family:  'Pangolin', cursive;
+    bottom: auto;
+    top: 30%;
+    
+}
+#s2_home ul li :hover{
+    color: red;
+    transition: .3s ease-in;
+}
+/* --------------------------------------------------Section 3-------------------------------------------------- */
+
+#s3_home .youtube-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    height:auto;
+    width: 100%;
+    /* border: solid 2px red; */
+}
+.s3-div1{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+}
+.s3-div2{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    color: rgb(58, 59, 59);
+}
+
+
+.s3-div2-div1{
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    word-wrap: normal;
+    word-spacing: 2px;
+    font-family:  'Pangolin', cursive;
+}
+/* --------------------------------------------------Section 4-------------------------------------------------- */
+
+
+#s4_home{
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+
+.s4_slide1{
+    background-color: rgba(12, 10, 10, 0.842);
+    color: white;
+    height: auto;
+    padding: 80px;
+}
+.s4_slide1 img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.s4_slide1 h3{
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: normal;
+    word-spacing: 2px;
+    font-style: italic;
+    font-family:  'Pangolin', cursive;
+}
+.s4_slide1 p{
+    line-height: 2em;
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: normal;
+    word-spacing: 2px;
+    font-family:  'Pangolin', cursive;
+}
+/* --------------------------------------------------Section 5-------------------------------------------------- */
+.s5_div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: purple; */
+
+    
+}
+.s5_div1-1{
+    border: 1px solid black;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000;
+    padding: 50px 40px 50px;
+    
+
+
+}
+.s5_div1-1 h2{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+    font-family: 'Pangolin', cursive;
+    max-width: 300px;
+
+}
+.s5_div1-1 p{
+    width: 80%;
+    color: rgba(114, 114, 114, 0.829);
+    font-weight: 400;
+    font-family: 'Pangolin', cursive;
+}
+.s5_div1-1 ul{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+.s5_div1-1 ul li{
+    padding: 30px;
+
+}
+.s5_div1-1 ul li a{
+    text-decoration: none;
+    color: rgba(165, 156, 156, 0.829);
+    font-weight: 400;
+    font-family: 'Pangolin', cursive;
+}
+.s5_div1-2{
+    display: block;
+}
+.s5_div1-2 {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    /* background: #000; */
+    padding: 50px 40px 50px;
+}
+.s5_div1-2 h1{
+    color: rgba(114, 114, 114, 0.829);
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    margin-top: 40px;
+
+}
+.s5_div1-2 input{
+    width: 300px;
+    border: 2px solid black;
+  
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    /* background-color: black; */
+}
+.s5_div1-2 textarea{
+    width: 300px;
+    border: 2px solid black;
+  
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    /* background-color: black; */
+}
+.s5_div1-2 button{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    
+    
+}
+/* --------------------------------------------------Section 5-------------------------------------------------- */
+#s6_home{
+    display: block;
+    width: 100%;
+    margin-top: 1.5em;
+}
+.s6_div1{
+    display: block;
+    background-color: black;
+    height: auto;
+    padding: 40px 40px 40px;
+    
+    
+}
+.s6_div1-2{
+    display: block;
+    width: 100%;
+    color: white;
+    
+}
+.s6_div1-2 p{
+    display: inline-block;
+    font-size: 1.2em;
+    color: rgba(114, 114, 114, 0.829);
+    font-weight: 400;
+    font-family: 'Pangolin', cursive;
+}
+
+
+
+
+
+/* --------------------------------------------------Media Query-------------------------------------------------- */
+@media only screen and (max-width: 790px) {
+    nav h4{
+        display: inline-block;
+        font-size: 1.7em;
+        font-weight: 600;
+        position: relative;
+        left: 45%;
+        top: auto;
+        font-family: 'Modak', cursive;
+        color: white;
+        text-shadow: yellow;
+    }
+    #menu_bar {
+        float: right;
+        visibility: visible;
+    }
+    .side_nav{
+        float: right;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: rgba(85, 77, 77, 0.493);
+        animation:slideInRight; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 0.5s; /* don't forget to set a duration! */
+    
+    }
+    nav  ul{
+       visibility: hidden;
+       position: absolute;
+       top: 0;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       z-index: 0;
+
+   
+        
+    }
+
+    
+    nav ul li{
+        list-style: none;
+        padding: 30px 20px ;
+        margin-top: 2em;;
+        
+      
+    }
+    nav ul li a{
+        line-height: 30px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+        font-weight: 800;
+        font-family: 'MuseoModerno', cursive;
+        background-color: none; 
+        /* margin-bottom: 5rem; */
+    }
+    /* .cross-x{
+        float: right;
+        visibility: hidden;
+        position: relative;
+        top: 10px;
+        right: 3rem;
+        font-weight: 800;
+        font-size: 1.2rem;
+        z-index: 1;
+        color: white;
+        cursor: pointer;
+
+    } */
+    .header_content{
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        box-sizing: border-box;
+    }
+    div{
+        display: block;
+    }
+    .widget{
+        line-height: 1.4;
+    }
+    
+    .header-text p {
+        color: #fff;
+        margin: 0;
+        font-size: 30px;
+        line-height: 1.4em;
+        text-transform: Uppercase;
+        letter-spacing: 3px;
+        font-family: 'Pangolin', cursive;
+    }
+    .header-text-1{
+        margin-bottom: 5px;
+    }
+    .widget-1{
+        line-height: 1.4;
+    
+    }
+    
+    .header-text-1 span:nth-child(odd){
+        color: rgb(233, 15, 15);
+        margin: 0;
+        font-size: 25px;
+        line-height: 1.4em;
+        text-transform: Uppercase;
+        letter-spacing: 1px;
+        font-family: 'Pangolin', cursive;
+    }
+    .header-text-1 span:nth-child(even){
+        color: #fff;
+        margin: 0;
+        font-size: 25px;
+        line-height: 1.4em;
+        text-transform: Uppercase;
+        letter-spacing: 1px;
+        font-family: 'Pangolin', cursive;
+    }
+    .widget-2{
+        line-height: 1.4;
+    }
+    
+    .header-text-2 span:first-child {
+        color: rgb(197, 36, 36);
+        margin: 0;
+        font-size: 30px;
+        line-height: 1.4em;
+        text-transform: Uppercase;
+        letter-spacing: 3px;
+        font-family: 'Pangolin', cursive;
+    }
+    .header-text-2 span {
+        color: #fff;
+        margin: 0;
+        font-size: 30px;
+        line-height: 1.4em;
+        text-transform: Uppercase;
+        letter-spacing: 3px;
+        font-family: 'Pangolin', cursive;
+    }
+    #s3_home .youtube-content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        box-sizing: border-box;
+        /* border: solid 2px black; */
+        
+        
+    }    
+    .s3-div1{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .s3-div2{
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: auto;
+        padding: 30px;
+        color: rgb(58, 59, 59);
+    }
+
+
+    .s3-div2-div1{
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: 2px;
+        word-wrap: normal;
+        word-spacing: 2px;
+        font-family:  'Pangolin', cursive;
+    }
+
+
+
+
+
+    .s5_div1{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+        
+        
+    
+        
+    }
+    .s5_div1-1{
+        border: 1px solid black;
+        display: block;
+        max-width: 100%;
+        width: auto;
+        box-sizing: border-box;
+        background: rgb(0, 0, 0);
+        padding: 40px 30px 40px;
+        
+        
+        
+    
+    
+    }
+    .s5_div1-1 h2{
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 1.5em;
+        color: white;
+        font-weight: 500;
+        font-family: 'Pangolin', cursive;
+        max-width: 300px;
+    
+    }
+    .s5_div1-1 p{
+        /* width: 100%; */
+        color: rgba(114, 114, 114, 0.829);
+        font-weight: 400;
+        font-family: 'Pangolin', cursive;
+    }
+    .s5_div1-1 ul{
+        list-style: none;
+        text-decoration: none;
+        margin-top: 50px;
+    
+    }
+    .s5_div1-1 ul li{
+        padding: 20px;
+    
+    }
+    .s5_div1-1 ul li a{
+        text-decoration: none;
+        color: rgba(165, 156, 156, 0.829);
+        font-weight: 400;
+        font-family: 'Pangolin', cursive;
+    }
+    .s5_div1-2{
+        display: block;
+    }
+    .s5_div1-2 {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        /* background: #000; */
+        padding: 50px 40px 50px;
+        /* border: 2px solid red; */
+        
+    }
+    .s5_div1-2 h1{
+        color: rgba(114, 114, 114, 0.829);
+        font-weight: 600;
+        font-size: 1.5rem;
+        font-family: 'Pangolin', cursive;
+        margin-top: 40px;
+    
+    }
+    .s5_div1-2 input{
+        width: 400px;
+        border: 2px solid black;
+      
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        /* background-color: black; */
+    }
+    .s5_div1-2 textarea{
+        width: 400px;
+        border: 2px solid black;
+      
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        /* background-color: black; */
+    }
+    .s5_div1-2 button{
+        margin-top: 30px;
+        font-size: 1.5rem;
+        font-family: 'Pangolin', cursive;
+        
+        
+    }
+}
